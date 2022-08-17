@@ -1,0 +1,21 @@
+{
+    "name": "bdt011/nas-academy",
+    "description": "A plugin for NAS Academy",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Shahidul Islam",
+            "email": "bdkoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nas\\Academy\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+    
+}

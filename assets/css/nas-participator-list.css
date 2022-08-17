@@ -1,0 +1,50 @@
+.nas-participator-list .dataTables_info{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+@media only screen and (max-width: 40em) {
+    .nas-participator-list.bdt-table-default-responsive table {
+        display: block;
+        position: relative;
+        width: 100%;
+   }
+    .nas-participator-list.bdt-table-default-responsive table thead {
+        display: block;
+        float: left;
+   }
+    .nas-participator-list.bdt-table-default-responsive table thead tr {
+        display: block;
+   }
+    .nas-participator-list.bdt-table-default-responsive table tbody {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+   }
+    .nas-participator-list.bdt-table-default-responsive table tbody tr {
+        display: inline-block;
+        vertical-align: top;
+   }
+    .nas-participator-list.bdt-table-default-responsive table th {
+        display: block;
+        padding: 0.5em 1em !important;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+   }
+    .nas-participator-list.bdt-table-default-responsive table th:first-child {
+        border-top: none;
+   }
+    .nas-participator-list.bdt-table-default-responsive table td {
+        display: block;
+        padding: 0.5em 1em !important;
+        min-height: 1.25em;
+        border-bottom: none;
+        border-right: none;
+   }
+    .nas-participator-list.bdt-table-default-responsive table td:first-child {
+        border-top: none;
+   }
+}
